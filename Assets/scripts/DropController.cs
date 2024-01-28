@@ -105,7 +105,7 @@ public class DropController : UdonSharpBehaviour
     {
         newBallID = nextBallID;
 
-        nextBallID = Random.Range(0, 0);
+        nextBallID = Random.Range(0, 5);
 
         RequestSerialization();
 
